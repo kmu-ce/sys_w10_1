@@ -17,7 +17,7 @@ int main(int argc, char **argv)
         return -1;
     }
     // assume:
-    // ./swapwords apple banana orange peach pear
+    // ./swap_words apple banana orange peach pear
     swap(argv,1,5); // swaps apple and pear 
     swap(argv,2,3); // swaps banana and orange
     for (int i=1; i < argc; i++) { // skips program name
