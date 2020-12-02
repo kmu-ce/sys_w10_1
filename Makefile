@@ -1,6 +1,6 @@
 # A simple makefile for building a program composed of C source files.
 
-PROGRAMS = skip_spaces
+PROGRAMS = skip_spaces swap_words
 
 all:: $(PROGRAMS)
 
